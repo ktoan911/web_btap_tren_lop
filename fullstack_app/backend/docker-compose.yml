@@ -6,4 +6,7 @@ services:
     ports:
       - "27018:27017"
     volumes:
-      - ./mongodbdata:/data/db
+      - student_mongo_data:/data/db
+
+volumes:
+  student_mongo_data:
